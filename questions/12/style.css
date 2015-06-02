@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.result div {
+    float: left;
+    width: 26%;
+}
+
+body{
+	background-image: url("images/back.jpg");
+    background-position: center top;	background-size: 100%;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+	border: 1px solid #5f7693;
+    border-radius: 5px;
+}
+.courierBold li {
+  font-family: 'courier_newregular';
+  font-size: 90%;
+  color: #000;
+}
+
+.questions li  {
+	-moz-animation-delay:1s;
+  	-webkit-animation-delay:1s;
+	animation-delay:1s;
+}
+.total  {
+	-moz-animation-delay:2s;
+  	-webkit-animation-delay:2s;
+	animation-delay:2s;
+}
+.individual {
+	-moz-animation-delay:3s;
+  	-webkit-animation-delay:3s;
+	animation-delay:3s;
+}
+
+#restart{
+	bottom: 10px;
+    position: absolute;
+    text-align: right;
+    width: 100%;	
+	right: 20px;
+	cursor:pointer;
+}

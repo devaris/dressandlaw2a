@@ -1,0 +1,34 @@
+@import url("reset.css");
+
+html, body
+{
+	background-color: #FFFFFF;
+    height: 98%;
+}
+
+/* GENERAL */
+span {
+  
+}
+
+/* Intro Text */
+.headIntroText span,  .mainIntroText span{
+  display: block;
+  text-align: center;
+}
+.headIntroText {
+  margin-top:1em;
+  margin-bottom:1em;
+  text-transform: uppercase;
+}
+.imageIntro {
+  text-align: center;
+  cursor:pointer;
+}
+.imageIntro img {
+  width: 70%; 
+ /*  max-width: 60%;*/
+}
+.mainIntroText {
+    
+}
