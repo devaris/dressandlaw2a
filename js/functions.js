@@ -89,7 +89,6 @@ $(document).ready(function(){
 	resetIndividual();
 	  
 	//(".imageIntro").click(startQuiz);
-	$(".imageIntro").on('click touchstart', startQuiz);
 	
 	
 }); // End of $(document).ready
