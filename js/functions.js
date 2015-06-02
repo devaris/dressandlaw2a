@@ -85,6 +85,6 @@ $(document).ready(function(){
 	
 	resetIndividual();
 	
-	(".imageIntro").click(startQuiz);
+	$(".imageIntro").click(startQuiz);
 
 }); // End of $(document).ready
