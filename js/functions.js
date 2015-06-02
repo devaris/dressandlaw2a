@@ -6,7 +6,6 @@ var questionsCompleted = [[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],
 
 // ADD CHAPTERS NAV EVENTS	
 function startQuiz(){
-	alert("startQuiz")
 	// Show - LOADING FRAME
 	$(".intro").css('display','none');	
 	$("iframe").css('display','block');	
@@ -81,11 +80,11 @@ function resetIndividual(){
 
 
 $(document).ready(function(){
-	("#startTheQuiz").click(startQuiz);
-	
 	// Hide - LOADING FRAME
 	$("iframe").css('display','none');	
 	
 	resetIndividual();
+	
+	(".imageIntro").click(startQuiz);
 
 }); // End of $(document).ready
