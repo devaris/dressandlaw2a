@@ -11,6 +11,9 @@ span {
   
 }
 
+a {
+    display: inline-block;
+}
 /* Intro Text */
 .headIntroText span,  .mainIntroText span{
   display: block;
@@ -28,7 +31,7 @@ span {
 .imageIntro img {
   /*  width: 20%; 
  max-width: 60%;*/
- height: 250px;
+ height: 450px;
 }
 .mainIntroText {
     
