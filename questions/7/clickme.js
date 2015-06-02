@@ -35,7 +35,9 @@ function clickItems(){
     }, 500);	
 	
 	clickedAnsIndex = $(this).index();	
-} // END function clickItems 
+	
+	return false;
+} // END function clickItems
 
 function submitAnswer(){
 	if (clickedAnsIndex==(correctAns-1)){
@@ -68,8 +70,10 @@ function submitAnswer(){
 	
 	$(".submitA").unbind(submitAnswer);
 	$(".submitA").css('cursor','default');
+	
+	return false;
 
-} // END function clickItems 
+} // END function clickItems
 	
 $(document).ready(function(){
 

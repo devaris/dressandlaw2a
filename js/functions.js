@@ -12,6 +12,8 @@ function startQuiz(){
 	$("iframe").css('display','block');	
 	
 	loadNextQuestion();	
+	
+	return false;
 }
 
 function loadNextQuestion(){

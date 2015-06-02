@@ -35,6 +35,8 @@ function clickItems(){
     }, 500);	
 	
 	clickedAnsIndex = $(this).index();	
+	
+	return false;
 } // END function clickItems 
 
 function submitAnswer(){
@@ -68,8 +70,10 @@ function submitAnswer(){
 	
 	$(".submitA").unbind(submitAnswer);
 	$(".submitA").css('cursor','default');
+	
+	return false;
 
-} // END function clickItems 
+} // END function clickItems
 	
 $(document).ready(function(){
 
