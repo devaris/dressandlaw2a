@@ -6,14 +6,12 @@ var questionsCompleted = [[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],
 
 // ADD CHAPTERS NAV EVENTS	
 function startQuiz(){
-	//alert("startQuiz")
+	alert("startQuiz")
 	// Show - LOADING FRAME
 	$(".intro").css('display','none');	
 	$("iframe").css('display','block');	
 	
 	loadNextQuestion();	
-	
-	return false;
 }
 
 function loadNextQuestion(){
@@ -83,12 +81,11 @@ function resetIndividual(){
 
 
 $(document).ready(function(){
+	("#startTheQuiz").click(startQuiz);
+	
 	// Hide - LOADING FRAME
 	$("iframe").css('display','none');	
 	
 	resetIndividual();
-	  
-	("#startTheQuiz").click(startQuiz);
-	
-	
+
 }); // End of $(document).ready

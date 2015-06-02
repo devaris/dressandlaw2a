@@ -128,8 +128,6 @@ function slide4_clickItems(){
 function runSlide4DocumentReady(){
 	// Add Interactivity
 	$(".slide4b img").click(slide4_clickItems);	
-	
-	return false;
 }
 function removeAnimationSlide4(){
 	/* Remove animation*/
